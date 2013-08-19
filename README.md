@@ -1,1 +1,2 @@
-Making hamsters run around and pick up corn - homework for a first IT prep course at my UAS
+Making hamsters run around and pick up corn.<br>
+A.k.a. just homework for a first IT prep course at my UAS.
