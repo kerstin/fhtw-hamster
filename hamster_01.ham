@@ -39,7 +39,6 @@
 	
 	/* get hamster to pick up all grains
 	(continuation of previous code) */
-	
 	vor();
 	vor();
 	linksUm();
