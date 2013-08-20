@@ -1,3 +1,47 @@
 /*imperative program*/void main() {
+
+	/* pick up all grains
+	then drop them on most north-western field */
+	
+	vor();
+	linksUm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	linksUm();
+	vor();
+	vor();
+	linksUm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	nimm();
+	nimm();
+	vor();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	gib();
+	
+	
     
 }
