@@ -1,3 +1,34 @@
 /*imperative program*/void main() {
+
+    /* hamster has 6 grains
+    drop one on each field
+    return to original position */
     
+    gib();
+    vor();
+    gib();
+    vor();
+    gib();
+    linksUm();
+    linksUm();
+    vor();
+    linksUm();
+    vor();
+    gib();
+    linksUm();
+    linksUm();
+    linksUm();
+    vor();
+    gib();
+    linksUm();
+    vor();
+    gib();
+    linksUm();
+    linksUm();
+    vor();
+    vor();
+    linksUm();
+    linksUm();
+    linksUm();
+        
 }
