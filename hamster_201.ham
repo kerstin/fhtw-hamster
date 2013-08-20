@@ -1,4 +1,6 @@
-/*imperative program*/
+/*imperative program*//*	make hamster pick up all grains
+	with the help of self-written functions.
+	also add descriptions to function! */
 
 void right() {
 	linksUm();
