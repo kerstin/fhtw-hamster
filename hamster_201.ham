@@ -1,0 +1,73 @@
+/*imperative program*/
+
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+
+void turnaround() {
+	linksUm();
+	linksUm();
+}
+
+/*	pick up grains from alcoves:
+	turn towards alcove from initial walking direction,
+	pick up grain, turn to walking direction again */
+void pickUp() {
+	vor();
+	initialPickUp();
+}
+
+void initialPickUp() {
+	vor();
+	right();
+	vor();
+	nimm();
+	linksUm();	
+}
+
+/*	leave alcove again:
+	back out of alcove and face into walking direction again */
+void backOut() {
+	linksUm();
+	vor();
+	right();
+	}
+
+/*	take a right turn:
+	turn around a right corner after having picked up a agrain */
+void rightCorner() {
+	vor();
+	right();
+	vor();
+	vor();
+	}
+	
+
+void main() {
+	
+    initialPickUp();
+    backOut();
+    
+    pickUp();
+    backOut();
+    pickUp();
+    backOut();
+    rightCorner();
+    
+    initialPickUp();
+    backOut();
+    pickUp();
+    backOut();
+   	rightCorner();
+   	
+    initialPickUp();
+    backOut();
+    pickUp();
+    backOut();
+   	rightCorner();
+   	
+    initialPickUp();	   	
+
+}
