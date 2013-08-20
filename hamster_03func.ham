@@ -1,0 +1,35 @@
+/*imperative program*//* same as hamster_03 but with self-written additional functions */
+
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+
+void salto() {
+	linksUm();
+	linksUm();
+	linksUm();
+	linksUm();
+}
+
+void stepUpRight() {
+
+}
+
+void stepDownRight() {
+
+}
+
+void stepUpLeft() {
+
+}
+
+void stepDownLeft() {
+
+}
+
+
+void main() {
+
+}
