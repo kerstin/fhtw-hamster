@@ -1,0 +1,26 @@
+/*imperative program*//*	hamster is running along a corridor (of size 8) to the right:
+	hamster is facing right but its initial position is unknown.
+	let hamster run to the far right */
+
+/*	new functions:
+	vornFrei()
+	kornDa()
+	maulLeer() */
+	
+void boldlyGo() {
+		if(vornFrei()) {
+		vor();
+		}
+	}	
+
+void main() {
+	/*	boldlyGo() needs to be run 7 times to make sure
+		the hamster reaches the far right */
+	boldlyGo();
+	boldlyGo();
+	boldlyGo();
+	boldlyGo();
+	boldlyGo();
+	boldlyGo();
+	boldlyGo();
+}

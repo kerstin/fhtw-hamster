@@ -1,0 +1,160 @@
+/*imperative program*//*	let the hamster "draw" numbers with grains:
+	- let it draw 4 different numbers
+	- each number's width is 3 cols, its height 5 rows
+	- the hamster starts in the top left corner of a number
+	- hamster finishes four fields to the right from where it
+	began drawing the number
+
+/*	draw a 4 */
+
+void left() {
+	linksUm();
+}
+
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+
+void turnaround() {
+	linksUm();
+	linksUm();
+}
+
+void draw4() {
+	right();
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	left();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	turnaround();
+	vor();
+	vor();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	vor();
+}
+
+void draw2() {
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	left();
+	vor();
+	gib();
+	vor();
+	gib();
+	left();
+	vor();
+	gib();
+	vor();
+	gib();
+	left();
+	vor();
+	vor();
+	vor();
+	vor();
+	right();
+	vor();
+	vor();
+}
+
+void draw1() {
+	vor();
+	right();
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	turnaround();
+	vor();
+	vor();
+	vor();
+	vor();
+	right();
+	vor();
+	vor();
+	vor();
+}
+
+void draw3() {
+	gib();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	turnaround();
+	vor();
+	vor();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	right();
+	vor();
+	gib();
+	vor();
+	gib();
+	turnaround();
+	vor();
+	vor();
+	left();
+	vor();
+	vor();
+	vor();
+	vor();
+	right();
+}
+
+
+
+void main() {
+	draw4();
+	draw2();
+	draw1();
+	draw3();
+}

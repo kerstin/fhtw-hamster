@@ -1,0 +1,34 @@
+/*imperative program*//*	have hamster leave and pick up grains:
+	hamster is running along a corridor (of size 8) to the right.
+	its starting position is known and it should leave a grain
+	on each empty field on its way and pick up all grains from
+	the then non-empty fields */
+
+/*	new functions:
+	vornFrei()
+	kornDa()
+	maulLeer() */
+	
+
+void switchGrains() {
+	if (!kornDa()) {
+		gib();
+	} else {
+		nimm();
+	}
+	if (vornFrei()) {
+		vor();		
+	}
+}
+	
+
+void main() {
+	switchGrains();
+	switchGrains();
+	switchGrains();
+	switchGrains();
+	switchGrains();
+	switchGrains();
+	switchGrains();    
+	switchGrains();
+}

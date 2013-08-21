@@ -1,0 +1,28 @@
+/*imperative program*//*	have hamster pick up all grains:
+	hamster is running along a corridor (of size 8) to the right.
+	its starting position is known and it should pick up all the
+	grains on its way (which lie on random fields) */
+
+/*	new functions:
+	vornFrei()
+	kornDa()
+	maulLeer() */
+
+void pickupALLTheGrains() {
+	if (kornDa()) {
+		nimm();
+	}
+	if (vornFrei()) {
+		vor();
+	}
+}
+
+void main() {
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+	pickupALLTheGrains();
+}
