@@ -1,0 +1,56 @@
+/*imperative program*//*	hamster sits in a corridor of unknown length and width of 1.
+	the hamster's position and orientation are unknown,
+	and there is an unknown number of grains in the corridor.
+	have the hamster pick up all grains in the corridor, then go
+	to one end of it and turn around to face the corridor. */
+
+
+/*	new statement:
+	while(condition) {
+		statement(s);
+	} */
+
+
+/*	add. functions:
+	vornFrei()
+	kornDa()
+	maulLeer() */
+
+
+/*	helper functions */
+void left() {
+	linksUm();
+}
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+void turnaround() {
+	linksUm();
+	linksUm();
+}
+
+void runAndPickUp() {
+	while(vornFrei()) {
+		vor();
+		while(kornDa()) {
+			nimm();
+		}
+	}
+}
+
+void main() {
+	if (!vornFrei()) {
+		left();
+		runAndPickUp();
+		turnaround();
+		runAndPickUp();
+		
+	} else {
+		runAndPickUp();
+		turnaround();
+		runAndPickUp();
+	}
+	turnaround();
+}

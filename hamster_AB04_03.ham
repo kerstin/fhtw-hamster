@@ -1,0 +1,42 @@
+/*imperative program*//*	hamster sits in a rectangular area of unknown size w/o obstacles.
+	the hamster's position and orientation are unknown,
+	and there is an unknown number of grains in the area.
+	have the hamster run into one corner of the area. */
+
+
+/*	new statement:
+	while(condition) {
+		statement(s);
+	} */
+
+
+/*	add. functions:
+	vornFrei()
+	kornDa()
+	maulLeer() */
+
+
+/*	helper functions */
+void left() {
+	linksUm();
+}
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+void turnaround() {
+	linksUm();
+	linksUm();
+}
+
+
+void main() {
+    while(vornFrei()) {
+    	vor();
+    }
+    left();
+    while(vornFrei()) {
+    	vor();
+    }    
+}
