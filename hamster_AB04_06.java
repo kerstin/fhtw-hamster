@@ -1,4 +1,4 @@
-/*imperative program*//*	hamster should walk along a spiral-like corridor,
+/*	hamster should walk along a spiral-like corridor,
 	pick up one grain at the inner end of the spiral,
 	then walk back to its inital position.
 	the corridor is only one field wide, but the lengths
@@ -14,7 +14,7 @@
 	if, while */
 
 /*	helper functions */
-void left() {
+import de.hamster.debugger.model.Territorium;import de.hamster.debugger.model.Territory;import de.hamster.model.HamsterException;import de.hamster.model.HamsterInitialisierungsException;import de.hamster.model.HamsterNichtInitialisiertException;import de.hamster.model.KachelLeerException;import de.hamster.model.MauerDaException;import de.hamster.model.MaulLeerException;import de.hamster.model.MouthEmptyException;import de.hamster.model.WallInFrontException;import de.hamster.model.TileEmptyException;public class hamster_AB04_06 extends de.hamster.debugger.model.IHamster implements de.hamster.model.HamsterProgram {void left() {
 	linksUm();
 }
 void right() {
@@ -28,7 +28,7 @@ void turnaround() {
 }
 
 
-void main() {
+public void main() {
 	/*	We don't know which direction the hamster is facing
 		in the beginning, so let's figure out, where it has
 		to turn to walk forward. */
@@ -59,6 +59,8 @@ void main() {
 								nimm();
 							}							
 							// TODO: go back
+						} else {
+							// do nothing
 						}
 					}	
 				}
@@ -75,10 +77,14 @@ void main() {
 								nimm();
 							}
 							// TODO: go back
+						} else {
+							// do nothing
 						}
 					}
+				
 				}			
 			}
 		}
 	}
+}
 }
