@@ -1,0 +1,32 @@
+/*imperative program*//*	hamster should walk along a spiral-like corridor,
+	pick up one grain at the inner end of the spiral,
+	then walk back to its inital position.
+	the corridor is only one field wide, but the lengths
+	of its individual parts and the number of turns it
+	takes are unknown. */
+
+/*	functions:
+	vornFrei()
+	kornDa()
+	maulLeer()
+	
+	statements:
+	if, while */
+
+/*	helper functions */
+void left() {
+	linksUm();
+}
+void right() {
+	linksUm();
+	linksUm();
+	linksUm();
+}
+void turnaround() {
+	linksUm();
+}
+
+
+void main() {
+    
+}
