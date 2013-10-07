@@ -14,20 +14,15 @@ void left() {
 	linksUm();
 
 }
-
 void right() {
 	linksUm();
 	linksUm();
 	linksUm();
-
 }
-
 void turnaround() {
 	linksUm();
 	linksUm();
 }
-
-
 
 /*	1. find out how many grains the hamster is carrying.
 	2. match the number of grains to the appropriate corridor. */

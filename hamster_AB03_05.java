@@ -1,5 +1,5 @@
-/*	let hamster put the grains it is carrying into the
-	appropriate "storage corridor" (length of corridor
+/*	have hamster put the grains it is carrying into the
+	appropriate "storage corridor" (i.e. length of corridor
 	needs to match the number of grains the hamster is carrying).
 	start position and orientation of hamster are known,
 	the number of grains it is carrying is not known.
@@ -14,20 +14,16 @@ import de.hamster.debugger.model.Territorium;import de.hamster.debugger.model.Te
 	linksUm();
 
 }
-
 void right() {
 	linksUm();
 	linksUm();
 	linksUm();
 
 }
-
 void turnaround() {
 	linksUm();
 	linksUm();
 }
-
-
 
 /*	1. find out how many grains the hamster is carrying.
 	2. match the number of grains to the appropriate corridor. */

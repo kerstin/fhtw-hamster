@@ -59,8 +59,6 @@ public void main() {
 								nimm();
 							}							
 							// TODO: go back
-						} else {
-							// do nothing
 						}
 					}	
 				}
@@ -77,11 +75,8 @@ public void main() {
 								nimm();
 							}
 							// TODO: go back
-						} else {
-							// do nothing
 						}
 					}
-				
 				}			
 			}
 		}

@@ -26,6 +26,7 @@ void right() {
 }
 void turnaround() {
 	linksUm();
+	linksUm();
 }
  
 /*	Check if the hamster is facing left or right by checking
